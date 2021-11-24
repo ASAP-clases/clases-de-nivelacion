@@ -1,0 +1,162 @@
+/*html{
+    font-family: 'Montserrat', sans-serif;
+ }*/
+ body {
+    margin: 0;
+    background-image: url(SDZQ2FNIHNA5DJWR23TR33MYRU.jpg);
+    background-size: cover;
+
+ }
+
+/*primera parte*/
+ header{
+     /*linear-gradient(rgba(5, 7, 12, 0.6), rgba(5, 7, 12, 0.6)), url(titulo.jpg);*/
+      /*background-size: contain;*/
+      /*padding: 20px;*/
+      display: grid;
+      grid-template-columns: 150px 1fr;
+      background-color: rgba(0, 0, 77, 0.5);
+      margin-bottom: none;
+      height: 150px;
+   }
+
+.logo img{
+   height: 150px;
+   width: 150px;
+}
+
+.titulo {
+   font-family: arial;
+   color: whitesmoke;
+   font-size: 80px;   
+   padding: none;
+   margin-top: 20px;
+   height: 20px;
+   padding-left: 20px;
+
+}
+.subtitulo {
+   font-family: arial;
+   color: whitesmoke;
+   font-size: 20px; 
+   padding-left: 20px; 
+}
+
+.intro{
+   display: grid;
+   grid-template-columns: 450px 1fr;
+   color: whitesmoke;
+   margin-top: 0px;
+   margin: 20px; 
+}
+.info h2{
+   color: whitesmoke;
+   text-decoration: underline;
+   text-align: center;
+   font-size: 35px;
+}
+.info{
+   background-color: rgba(5, 7, 12, 0.5);
+   color: white;
+   margin: 0 auto;
+   font-family: arial;
+   padding: 10px;
+   height: 300px;
+   }
+.contactos, .mensaje{
+   margin: auto;
+}
+.contactos {
+   font-size: 20px;
+   text-decoration: underline;
+}
+
+.mensaje{
+   background-color: rgba(0, 0, 0, 0.7);
+   width: 500px;
+   height: 280px;
+}
+form{
+   margin-top: auto;
+   margin-left: 50px;
+   font-family: arial;
+   font-size: 12px;
+}
+form p{
+   font-size: 15px;
+}
+.nombre, .mail{
+   color: whitesmoke;
+   width: 400px;
+   padding: 6px;
+   margin-top: 3px;
+   background: transparent;
+   border: none;
+   border-bottom: 2px solid cyan ;
+}
+.consulta:hover, .nombre:hover, .mail:hover{
+   background: rgba(153, 204, 255, 0.6);
+}
+
+textarea{
+   color: whitesmoke;
+   display: flex;
+   width: 400px;
+   height: 100px;
+   padding: 7px;
+   border: none;
+   border-bottom: 2px solid cyan ;
+   background: transparent;
+}
+.enviar{
+   background: #ccffff;
+   width: 100px;
+   height: 25px;
+}
+
+
+ .container {
+   display: flex;
+   flex-wrap: wrap;
+}
+.horarios img, .servicios img, .materias img, .claseslinea img{
+   width: 250px;
+   height: 250px;
+   /*padding-left: 65px;*/
+  }
+.horarios, .servicios, .materias, .claseslinea {
+   width: 250px;
+   height: 500px;
+   color: whitesmoke;
+   border: solid white;
+   background-color: rgba(95, 158, 160, 0.6);
+   margin: auto;
+   margin-bottom: 20px;
+}
+.horarios h2, .servicios h2, .materias h2, .claseslinea h2{
+   font-family: italic;
+   font-size: 20px;
+   text-align: center;
+}
+.horarios p, .servicios p, .materias p, .claseslinea p{
+   font-size: 15px;
+   padding-left: 10px;
+   padding-right: 10px; 
+   font-family: arial;
+   text-align: center;
+}
+
+footer{
+   display: flex;
+   flex-wrap: wrap;
+   display: grid;
+   grid-template-columns: 800px 1fr;
+   background-color: black;
+   color: white;
+   padding: 20px;
+   height: 130px;
+}
+footer div{
+   margin: 20px;
+}
+ 
